@@ -59,7 +59,12 @@ a:focus {
 .frame__demos a:not(:last-child) {
 	margin-right: 1rem;
 }
-
+.container {
+	background: url(../images/background.jpg) no-repeat center center;
+    background-size: cover;
+}
+.container canvas{
+}
 .content {
 	display: flex;
 	flex-direction: column;
