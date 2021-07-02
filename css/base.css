@@ -60,10 +60,23 @@ a:focus {
 	margin-right: 1rem;
 }
 .container {
-	background: url(../images/background.jpg) no-repeat center center;
-    background-size: cover;
+	/* background: url(../images/background.jpg) no-repeat center center; */
+    /* background-size: cover; */
+	height: 100vh;
+	overflow:hidden
 }
-.container canvas{
+.container2{
+	/* background: url(../images/image-523-background.png) no-repeat center center; */
+    /* background-size: cover; */
+	/* max-width: 1850px;*/
+	height: 100vh;
+	/* margin: 0 auto;*/
+	overflow:hidden  
+}
+p{
+	position: absolute;
+    top: 20px;
+    right: 50%;
 }
 .content {
 	display: flex;
